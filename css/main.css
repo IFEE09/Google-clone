@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-size: 17px;
-    font-family:  ;
 }
 
 a{
@@ -13,7 +12,6 @@ a{
 header {
     width: 100%;
     height: 60px;
-    background-color: burlywood;
 }
 
 header nav {
@@ -27,7 +25,6 @@ header ul li {
 
 header nav .nav-header {
     width: 250px;
-    background-color: aqua;
     height: auto;
     display: flex;
     list-style: none;
@@ -36,6 +33,33 @@ header nav .nav-header {
 }
 
 nav .nav-header a {
-    margin-right: 10px;
+    margin-right: 15px;
     color: #000000;
+}
+
+nav .nav-header .menu-icon {
+    background-image: url('../assets/images/icon-menu.png');
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-header img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 0rem;
+    text-align: center;
+}
+
+main .main-logo {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+main .main-logo img {
+    width: 335px;
 }
