@@ -91,6 +91,7 @@ main .main-input-container:hover {
 }
 
 main .main-input .search-icon {
+    margin-right: 13px;
     background-image: url('/assets/images/search-icon.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -108,4 +109,72 @@ main .main-input .micro-icon {
     height: 18px;
     cursor: pointer;
 }
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button {
+    margin: 3px;
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0px 15px;
+}
+
+main .main-buttons button:hover {
+    color: rgb(39, 38, 38);
+    border: 1px solid #bbbbbe;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0 #20212447;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 15px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
+
+footer ul li a:hover{
+    color: #434446;
+    font-weight: 100;
+}    
+    
+
+footer .footer-left {
+    justify-self: left;
+}
+
+footer .footer-right {
+    justify-self: right;
+    margin-right: 1.5rem;
+}
+
 
